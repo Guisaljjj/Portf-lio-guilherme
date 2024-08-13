@@ -1,0 +1,24 @@
+:root{
+  --cor-fundo: #000000;
+  --cor-destaque: #f2f200;
+  --cor-texto: #888888;
+}
+
+body{
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+strong{
+  color: var(--cor-destaque);
+}
+
+a{
+  color: var( --cor-texto);
+  font-size: 18px;
+  text-decoration: none;
+  background-color: var( --cor-destaque) ;
+  padding: 10px 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

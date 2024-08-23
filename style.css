@@ -9,7 +9,15 @@ body{
   color: var(--cor-texto);
 }
 
-strong{
+.apresentacao{
+display: flex;
+margin: 10%;
+align-items: center;
+justify-content:space-between;
+  }
+
+
+.titulo__destaque{
   color: var(--cor-destaque);
 }
 
@@ -22,3 +30,19 @@ a{
   margin-top: 10px;
   border-radius: 10px;
 }
+
+.foto{
+  height: 200px;
+  }
+
+.apresentacao__conteudo{
+  width: 615px;
+}
+
+.apresentacao__conteudo__titulo{
+  font-size: 36px;
+}
+
+.apresentacao__conteudo__texto{
+  font-size: 24px;
+  }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
   --cor-fundo: #000000;
   --cor-destaque: #f2f200;
@@ -5,6 +8,9 @@
 }
 
 body{
+  font-family: 'montserrat',  'sans-serif';
+  box-sizing: border-box;
+  height: 100vh;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
 }
